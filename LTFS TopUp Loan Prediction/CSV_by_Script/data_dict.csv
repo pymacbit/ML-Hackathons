@@ -1,0 +1,63 @@
+Demography Table,Unnamed: 1,Unnamed: 2,Bureau Data,Unnamed: 4,Unnamed: 5,CONTRIBUTOR ID,Bank Name,Unnamed: 8,Account Type,Description
+ID,Agreement ID (Dummy Value),,ID,Agreement NO (Dummy),,NBF,NBFC,,A01,Auto Loan (Personal)
+Frequency,"Frequency of the loan payment, It can be monthly, half yearly etc",,SELF-INDICATOR,"This field implies whether Tradeline belong to LTFS or not. In the event of self match value will be ""True "" else false.",,COP,CO-OPERATIVE BANK,,A02,Auto Overdraft
+InstlmentMode,It can be either advance or an arrear while opening the account,,MATCH-TYPE,Type of match for Primary / Secondary or In other words Account of Applicant or CoApplicant,,MFI,NGO-MFI,,A03,Two-Wheeler Loan
+LoanStatus,Active Or closed Account at this point of time,,ACCT-TYPE,This field implies an account type assigned by the financial institute to the borrower,,HFC,HOUSING FINANCE COMPANY,,A04,Commercial Vehicle Loan
+PaymentMode,"Payement Mode at the start of loan. It can be cheque(PDC), ECS etc
+  (You may need to club them based on their similarity). Example cheque and PDC are same. ",,CONTRIBUTOR-TYPE,"Whether it’s a government bank, private bank, nbfc etc
+  NBF: Its NBFC
+  MFI:- MircroFiannce Institution (Check column G)
+  This field implies the Type of lender who granted the loan.",,RRB,REGIONAL RURAL BANK,,A05,Commercial Equipment Loan
+BranchID,This field implies the client's loan disbursing branch,,DATE-REPORTED,This field implies the date up to which information is reported.,,FRB,FOREIGN BANK,,A06,Housing Loan
+Area,Area at which the branch is present( Superset of Branch),,OWNERSHIP-IND,This field implies the repayment responsibility,,NAB,NATIONALIZED BANK,,A07,Property Loan
+Tenure,Tenure of the loan,,ACCOUNT-STATUS,This field displays the status of loan account.,,PRB,PRIVATE BANK,,A08,Loan Against Shares / Securities
+AssetCost,Cost of asset involved of the given loan,,DISBURSED-DT,This field implies the date of credit disbursement .,,INS,INSURANCE COMAPANY,,A09,Gold Loan
+AmountFinance,Most of the time its equivalent to disbursal amount but in some cases it may vary,,CLOSE-DT,This field implies the date of account closure.,,SBI,SBI AND ASSOCIATES,,A10,Education Loan
+DisbursalAmount,Loan Amount given for a loan,,LAST-PAYMENT-DATE,This field implies the date of last payment of an installment.,,ARC,Asset Reconstruction Company,,A11,Leasing
+EMI,EMI for each month,,CREDIT-LIMIT/SANC AMT,This field implies the amount that is sanctioned by credit institution or credit limit - incase of credit cards,,CCC,CREDIT CARD COMPANY,,A12,Personal Loan
+DisbursalDate,Disbursal date for a loan,,DISBURSED-AMT/HIGH CREDIT,This field displays Disbursed amount of loan/credit as at the end of reporting period.,,DTC,DIRECT TO CONSUMER,,A13,Consumer Loan
+MaturityDAte,Maturity date at which the given loan will end,,INSTALLMENT-AMT,This field implies the Installment/EMI to be paid.,,OFI,Other Financial Institutions,,A14,Loan to Professional
+AuthDate,"Autharization date of loan, it usually is earlier than disbursal date",,CURRENT-BAL,This field implies the outstanding amount a borrower still owes on a particular credit facilit,,SFC,STATE FINANCIAL CORPORATION,,A15,Credit Card
+AssetID,AssetID is a key generated for an asset for example an eicher tractor has different id than tractor of other brands,,INSTALLMENT-FREQUENCY,This field implies the Installment frequency for the account,,NHB,National Housing Bank,,A16,Charge Card
+AssetType,"Kind of assets for which the loan is taken Tractor, Harvestor etc",,OVERDUE-AMT,This field implies the amount that has been overdue in the account.,,TSR,TRUST,,A17,Fleet Card
+ManufacturerID,"Sonalika, Eicher etc, brands which manufacture these heavy machinaries used in farming. 
+ ",,WRITE-OFF-AMT,This field implies the total loan amount written-off by the lender.,,SHG,SHG,,A18,Loan against Card
+SupplierID,Supplier from which the purchase was done,,ASSET_CLASS,"This field displays classification of the account as either of the following -
+  Standard
+  SubStandard
+  Special Mention Account
+  Loss
+  Doubtful",,,,,A19,Overdraft
+LTV,Loan to value (borrowed amount against the appraised value of the property ),,REPORTED DATE - HIST,"This field implies the 36 month history of Reported Date History for the particular account.
+  ",,,,,A20,Loan Against Bank Deposits
+SEX,Gender of the customer,,DPD - HIST,"This field implies the 36 month history of Days Past Due for the particular account.
+  000 = 0 payments past due (current account)
+  001 to 999 = Number days past due. If an account is above 999 days, mark as 999
+  XXX = No payment history available prior to this time. An “X” may not be embedded within other values.
+  DDD = No payment history available this month. “D” may be embedded in the payment pattern.",,,,,A21,OD on Savings Account
+AGE,Age of the customer,,CUR BAL - HIST,This field implies the Current balance history for 36 months.,,,,,A22,Non-Funded Credit Facility
+MonthlyIncome,Income of the customer,,AMT OVERDUE - HIST,This field implies the Amount Overdue history for 36 months.,,,,,A23,Business Loan General
+City,City of the given address,,AMT PAID - HIST,This field implies the Amount Paid history for 36 months.,,,,,A24,Business Loan Priority Sector Small Business
+State,State of the given address,,TENURE,This field implies the Tenure of the account,,,,,A25,Business Loan Priority Sector Agriculture
+ZiPCODE,Zip code of the location given as address,,,,,,,,A26,Business Loan Priority Sector Others
+Top-up Month,Period/Bucket when customer took the Top-up loan,,,,,,,,A27,Business Non-Funded Credit Facility General
+,,,,,,,,,A28,Business Non-Funded Credit Facility-Priority Sector- Small Business
+,,,,,,,,,A29,Business Non-Funded Credit Facility-Priority Sector-Agriculture
+,,,,,,,,,A30,Business Non-Funded Credit Facility-Priority Sector-Others
+,,,,,,,,,A31,Business Loan Against Bank Deposits
+,,,,,,,,,A32,Other
+,,,,,,,,,A33,Commercial Vehicle Loan
+,,,,,,,,,A34,Telco Wireless
+,,,,,,,,,A35,Telco Broadband
+,,,,,,,,,A36,Telco Landline
+,,,,,,,,,A37,Microfinance Business Loan
+,,,,,,,,,A38,Microfinance Personal Loan
+,,,,,,,,,A39,Microfinance Housing Loan
+,,,,,,,,,A40,Microfinance Others
+,,,,,,,,,A41,Used Car Loan
+,,,,,,,,,A42,Construction Equipment Loan
+,,,,,,,,,A43,Used Tractor Loan
+,,,,,,,,,A60,Staff Loan
+,,,,,,,,,A61,Secured Credit Card
+,,,,,,,,,A62,Corporate Credit Card
+,,,,,,,,,A63,Kisan Credit Card
